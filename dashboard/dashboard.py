@@ -6,7 +6,7 @@ import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # load data
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("dashboard//main_data.csv")
 
 # Konversi kolom datetime
 datetime_columns = ["order_delivered_customer_date", "order_estimated_delivery_date"]
